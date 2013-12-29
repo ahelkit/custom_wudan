@@ -1,0 +1,21 @@
+{{!< default}}
+{{#post}}
+
+{{! Article | Post wrap: }}<article role="article" itemscope itemtype="http://schema.org/Article" class="postwrap_nix">
+
+{{! Post top: }}<div class="posttop_nix nixclear">
+{{! Post info: }}<div class="postinfo_nix">
+{{! Article time:/ }}<time datetime="{{date format="YYYY-MM-DD"}}" itemprop="datePublished"><i class="nix_icon-calendar"></i> &nbsp; {{date format='dddd DD MMM YYYY'}}</time>{
+</div>{{! /Post info }}
+</div>{{! /Post top }}
+
+{{! Article header:/ }}<header class="titlewrap_nix">
+{{! Article headline:/ }}<h1 class="posttitle_nix" itemprop="headline"><a href="{{{url}}}" rel="bookmark">{{{title}}}</a></h1>
+</header>{{! /Article header }}
+
+{{! Article body:/ }}<div class="postinner_nix nixclear" itemprop="articleBody">{{{content}}}</div>
+
+{{! Post bottom:/ }}<div class="postbottom_nix"></div>
+</article>{{! /Article | Post wrap }}
+
+{{/post}}

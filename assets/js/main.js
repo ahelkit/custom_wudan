@@ -1,0 +1,1 @@
+$('.search-results').Tapirus('yourtapirtoken');
