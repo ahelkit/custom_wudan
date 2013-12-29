@@ -549,6 +549,13 @@ a:focus {
   box-sizing: border-box;
   margin-top: 1em;
 }
+#sidebar .site-search input {
+  border: 3px solid #EEEEEE;
+  box-sizing: border-box;
+  padding: 0.618em 1em;
+  width: 100%;
+  margin-bottom: 1.7em;
+}
 #sidebar img {
   width: 100%;
 }

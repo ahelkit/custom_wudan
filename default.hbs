@@ -30,7 +30,7 @@
 
 <div class="row">
 	<div id="content" class="col-8">
-		<main class="nixclear">{{{body}}}</main>{{! Document main:/ }}
+		<main class="nixclear"><div class="search-results"></div>{{{body}}}</main>{{! Document main:/ }}
 	</div>
 	<div id="sidebar" class="col-4">{{> sidebar}}</div>{{! Document sidebar }}
 </div>
@@ -44,10 +44,10 @@
 </div>{{! /Site wrapper }}
 {{! Ghost outputs important scripts and data with this tag }}{{ghost_foot}}
 <script language="javascript" type="text/javascript"></script>
-<script src="/assets/js/main.js"></script> 
 <script src="/assets/js/moment.js"></script>  
 <script src="/assets/js/handlebars.js"></script>  
 <script src="/assets/js/jquery.tapirus.js"></script> 
+<script src="/assets/js/main.js"></script>
 responsive_iframes();
 </script>
 </body>

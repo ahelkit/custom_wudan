@@ -1,1 +1,1 @@
-$('.search-results').Tapirus('yourtapirtoken');
+$('.search-results').Tapirus('52c0662960ee880000000001');
