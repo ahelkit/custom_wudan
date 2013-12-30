@@ -20,18 +20,11 @@
 <hr />
 
 {{#if tags}}
-<p class="tags_nix"><i class="nix_icon-tag"></i> {{tags separator=" | "}}</p>
+<p class="tags_nix"><i class="nix_icon-tag"></i> {{tags separator=", "}}</p>
 {{/if}}
 
 <h6 class="share_nix">Sharing is caring&nbsp;</h6>
 <a class="share_nix nix_icon-twitter" target="_blank" href="http://twitter.com/share?text={{title}}&url={{url absolute="true"}}"><span class="nixhidethis">Twitter</span></a>
-
-{{! TO USE THIS SECTION FOR COMMENTS INTEGRATION, DELETE THIS LINE AND THE LINE INDICATED BELOW
-<hr />
-<section class="comments_nix" itemscope itemtype="http://schema.org/UserComments">
->>>PLACE YOUR COMMENTS INTEGRATION CODE HERE<<<
-</section>
-DELETE THIS LINE TO USE THIS COMMENTS SECTION}}
 
 </div>{{! /Article body }}
 
