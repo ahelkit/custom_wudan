@@ -156,7 +156,7 @@ body {
   margin: 0;
   padding: 0;
   color: #333333;
-  background-color: #F7F7F7;
+  background-color: #ffffff;
 }
 img {
   border: 0;
@@ -205,7 +205,6 @@ audio:not([controls]) {
   float: left;
 }
 
-
 hr {
   -webkit-box-sizing: content-box;
   -moz-box-sizing: content-box;
@@ -243,7 +242,7 @@ h2 {
   font-size: 2.1374999999999997em;
   font-weight: 300;
   line-height: 1.313em;
-  margin: 0.6333749999999999em 0 0;
+  margin: 0.6333749999999999em .6em 0 0;
   color: #000000;
 }
 h3 {
@@ -423,6 +422,10 @@ a:focus {
   margin-right: auto;
   margin-left: auto;
 }
+article img {
+  margin: 0 auto;
+  display: block;
+}
 .postmid_nix {
   position: relative;
   z-index: 3;
@@ -451,8 +454,8 @@ a:focus {
 .postwrap_nix {
   position: relative;
   width: 100%;
-  margin-top: 1em;
-  margin-bottom: 1em;
+  margin-top: 2em;
+  margin-bottom: 2em;
 }
 .postbottom_nix {
   position: static;
@@ -471,8 +474,8 @@ a:focus {
 .postinner_nix {
   position: relative;
   min-height: 12.500em;
-  padding: 1em 2.500em 3.438em;
-  border: 0em solid rgba(0, 0, 0, 0);
+  padding: 1em .6em .6em 0em;
+  border-bottom: 1px dotted #86E2CE;
   background-color: white;
   font-family: 'Open Sans', sans-serif;
   font-size: 1.000em;
@@ -514,12 +517,7 @@ a:focus {
 }
 .postinfo_nix {
   position: relative;
-  top: 0.000em;
-  margin-top: 0.000em;
-  margin-right: 4.688em;
-  margin-bottom: 0.000em;
-  padding: 1.000em;
-  float: right;
+  padding: .5em;
   border-style: solid;
   border-width: 0.000em;
   border-color: rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) #000000;
@@ -530,7 +528,9 @@ a:focus {
   box-shadow: none;
   color: #000000;
   font-weight: 300;
-  text-align: right;
+  text-align: center;
+  margin: 0 auto;
+  width: 25%;
 }
 .header_nix {
   position: relative;
@@ -545,9 +545,9 @@ a:focus {
 }
 #sidebar {
   background: #fff;
-  padding: 20px;
+  padding: 0px;
   box-sizing: border-box;
-  margin-top: 1em;
+  margin-top: 2em;
 }
 #sidebar .site-search input {
   border: 3px solid #EEEEEE;
@@ -768,7 +768,7 @@ a.logo_nix{
   background-color: #86e2ce;
 }
 .titlewrap_nix {
-  padding: 1em 2.500em 0em;
+  padding: 0;
   text-align: center;
   background: #fff;
 }
