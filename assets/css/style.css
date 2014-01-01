@@ -405,7 +405,6 @@ a:link,
 a:visited {
   color: #;
   text-decoration: none;
-  border-bottom: #ff1477 1px solid;
   color: #333;
 }
 a:hover,
@@ -420,6 +419,9 @@ a:focus {
   min-height: 6.250em;
   margin-right: auto;
   margin-left: auto;
+}
+article a {
+  border-bottom: #ff1477 1px solid;
 }
 article img {
   margin: 0 auto;
@@ -672,22 +674,13 @@ article img {
   text-align: center;
   margin-bottom: 2.25em;
 }
-/*.pagination_nix a,
-.post_footer_nix a,
-.pagination_nix a:link,
-.post_footer_nix a:link,
-.pagination_nix a:visited,
-.post_footer_nix a:visited {
-  color: #333333;
-  text-decoration: none;
+.pagination_nix a {
+  margin: 0 .6em;
 }
-.pagination_nix a:hover,
-.post_footer_nix a:hover,
-.pagination_nix a:focus,
-.post_footer_nix a:focus {
-  text-decoration: none;
-  color: #ff1477;
-}*/
+.pagination_nix .page-number {
+  color: #999;
+  font-style: italic;
+}
 .footer_nix {
   position: relative;
   padding-top: 0.625em;
