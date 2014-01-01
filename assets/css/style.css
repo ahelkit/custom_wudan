@@ -795,3 +795,8 @@ a.share_nix {
 article .share_nix.nix_icon-twitter {
   font-size: 1.7em;
 }
+@media (max-width: 1000px) {
+  body {
+    padding: 0 1.2em;
+  }
+}
