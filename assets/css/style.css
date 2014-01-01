@@ -795,8 +795,27 @@ a.share_nix {
 article .share_nix.nix_icon-twitter {
   font-size: 1.7em;
 }
+
 @media (max-width: 1000px) {
   body {
     padding: 0 1.2em;
+  }
+}
+@media (max-width: 768px) {
+  #content,
+  #sidebar,
+  .postwrap_nix {
+    width: 100%;
+    padding: 0em;
+  }
+  #sidebar img {
+    width: 50%;
+    margin: 0 auto;
+    display: block;
+  }
+}
+@media (max-width: 400px) {
+  #sidebar img {
+    width: 100%;
   }
 }
