@@ -3,14 +3,14 @@
 	$.fn.Tapirus = function(token, options) {
 
 		options = $.extend({
-			dateFormat: 'MMMM D, YYYY',
+			dateFormat: 'MM.DD.YYYY',
 			queryFilter: undefined,
 			inputSelector: 'input[type="search"]',
 			sessionStorage: false,
 			sortBy: undefined,
 			templates: {
 				count: '<h3 class="search-results-count">{{count}} results for <q>{{query}}</q></h3>',
-				result: '<div class="search-result"><h2 class="post-title"><a href="{{link}}">{{title}}</a></h2><time class="post-date" datetime="{{published_on}}">{{date}}</div>',
+				result: '<div class="search-result"><h2 class="post-title"><a href="{{{link}}}">{{{title}}}</a></h2><time class="post-date" datetime="{{published_on}}">{{date}}</div>',
 			},
 		},
 		options);

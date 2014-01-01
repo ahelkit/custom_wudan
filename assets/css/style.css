@@ -403,7 +403,6 @@ textarea {
 a,
 a:link,
 a:visited {
-  color: #;
   text-decoration: none;
   color: #333;
 }
@@ -535,6 +534,11 @@ article img {
   padding: 0.618em 1em;
   width: 100%;
   margin-bottom: 1.7em;
+}
+.search-active .pagination,
+.search-active article,
+.search-active #disqus_thread {
+display: none;
 }
 #sidebar img {
   width: 100%;
