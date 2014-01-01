@@ -238,7 +238,7 @@ h1 {
 }
 h2 {
   font-family: 'Sanchez';
-  font-size: 2.1374999999999997em;
+  font-size: 1.7em;
   font-weight: 300;
   line-height: 1.313em;
   margin: auto;
@@ -439,7 +439,7 @@ article img {
 .posttop_nix {
   position: absolute;
   right: 0;
-  bottom: .5em;
+  bottom: .25em;
 }
 .postwrap_nix {
   position: relative;
