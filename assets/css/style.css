@@ -569,10 +569,13 @@ display: none;
 }
 #sidebar .instagram .share_nix.nix_icon-instagram {
   font-size: 2em;
+  display: block;
+  margin-bottom: 0em;
 }
 #sidebar .instagram-header {
   text-align: center;
   margin-top: 2.5em;
+  border-bottom: 1px dotted #86E2CE;
 }
 #sidebar .instagram-header h4 {
   padding-bottom: .25em;
