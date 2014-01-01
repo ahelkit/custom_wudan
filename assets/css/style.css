@@ -514,10 +514,8 @@ article img {
 }
 .header_nix {
   text-align: center;
-  margin-top: 1.250em;
-  margin-bottom: 0.000em;
-  padding-top: 1.000em;
-  padding-bottom: 2.500em;
+  margin-top: 1em;
+  padding-bottom: 1em;
   border-bottom: 0em solid rgba(0, 0, 0, 0);
   /* border-radius: 0.6em 0.6em 0.000em 0.000em; */
   background-color: #ffffff;
