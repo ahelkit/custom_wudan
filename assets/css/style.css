@@ -824,6 +824,9 @@ article .share_nix.nix_icon-twitter {
   .logo_nix img {
     max-width: 100%;
   }
+  .posttitle_nix {
+    max-width: 100%;
+  }
   .posttop_nix {
     position: relative;
     font-size: .8em;
