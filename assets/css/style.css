@@ -797,6 +797,9 @@ a.share_nix {
 .post-template article {
   margin-bottom: 0em;
 }
+article p:first-child {
+  -webkit-margin-before: 0em;
+}
 article .share_nix.nix_icon-twitter {
   font-size: 1.7em;
 }
@@ -818,6 +821,9 @@ article .share_nix.nix_icon-twitter {
     width: 50%;
     margin: 0 auto;
     display: block;
+  }
+  input[type=search] {
+    -webkit-appearance:none;
   }
 }
 @media (max-width: 400px) {
