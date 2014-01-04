@@ -60,6 +60,13 @@
 .nix_icon-instagram:before {
   content: '\e604';
 }
+.nix_icon-facebook:before {
+  content: '\e612';
+}
+/* '' */
+.nix_icon-gplus:before {
+  content: '\e61c';
+}
 /* '' */
 .nix_icon-tag:before {
   content: '\e616';
