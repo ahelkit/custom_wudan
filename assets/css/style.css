@@ -6,7 +6,9 @@
   font-style: normal;
 }
 [class^="nix_icon-"]:before,
-[class*=" nix_icon-"]:before {
+[class*=" nix_icon-"]:before,
+.nix_icon-next:after,
+.nix_icon-arrow-right:after {
   font-family: "icomoon";
   font-style: normal;
   font-weight: normal;
@@ -108,12 +110,24 @@
   content: '\e618';
 }
 /* '' */
-.nix_icon-arrow-left:before {
-  content: '\e619';
+.nix_icon-next:after {
+  content: '\e61a';
+  vertical-align: -1px;
 }
 /* '' */
-.nix_icon-arrow-right:before {
-  content: '\e61a';
+.nix_icon-previous:before {
+  content: '\e619';
+  vertical-align: -1px;
+}
+/* '' */
+.nix_icon-arrow-left:before {
+  content: '\e61e';
+  vertical-align: -1px;
+}
+/* '' */
+.nix_icon-arrow-right:after {
+  content: '\e61d';
+  vertical-align: -1px;
 }
 /* '' */
 .nix_icon-calendar:before {

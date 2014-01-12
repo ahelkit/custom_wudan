@@ -1,0 +1,9 @@
+<nav class="pagination" role="pagination">
+    {{#if prev}}
+        <a class="newer-posts nix_icon-arrow-left" href="{{pageUrl prev}}">Fast Forward</a>
+    {{/if}}
+    <span class="page-number">Page {{page}} of {{pages}}</span>
+    {{#if next}}
+        <a class="older-posts nix_icon-arrow-right" href="{{pageUrl next}}">Rewind</a>
+    {{/if}}
+</nav>
