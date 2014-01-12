@@ -229,64 +229,61 @@ a:focus {
   outline: 0;
 }
 h1 {
-  font-family: 'Sanchez';
+  font-family: 'Raleway' Helvetica, Arial, Sans-Serif;
   font-weight: 700;
   -webkit-text-stroke: 0em;
   font-size: 2.8499999999999996em;
   font-weight: 700;
   line-height: 1.313em;
   margin: 0.563em 0;
-  color: #000000;
 }
 h2 {
-  font-family: 'Sanchez';
+  font-family: 'Raleway' Helvetica, Arial, Sans-Serif;
   font-size: 1.7em;
+  font-weight: 700;
+  line-height: 1.313em;
+  margin: auto; 
+}
+h3 {
+  font-family: 'Raleway', Helvetica, Arial, Sans-Serif;
+  font-weight: 700;
+  -webkit-text-stroke: 0em;
+  font-size: 1.3em;
   font-weight: 300;
   line-height: 1.313em;
   margin: auto;
-  color: #000000;
-}
-h3 {
-  font-family: 'Sanchez';
-  font-weight: 700;
-  -webkit-text-stroke: 0em;
-  font-size: 1.4249999999999998em;
-  font-weight: 300;
-  line-height: 1.313em;
-  margin: 1.2667499999999998em 0;
-  color: #000000;
+  letter-spacing: .05em;
+  padding-bottom: 5px;
 }
 h4 {
-  font-family: 'Sanchez';
+  font-family: 'Raleway', Helvetica, Arial, Sans-Serif;
   font-weight: 700;
   -webkit-text-stroke: 0em;
   font-size: 1.24735em;
   font-weight: 300;
   line-height: 1.313em;
   margin: 1.2667499999999998em 0;
-  color: #000000;
 }
 h5 {
-  font-family: 'Sanchez';
+  font-family: 'Raleway', Helvetica, Arial, Sans-Serif;
   font-weight: 700;
   -webkit-text-stroke: 0em;
   font-size: 1.0687499999999999em;
   font-weight: 300;
   line-height: 1.313em;
   margin: .6em 0 0;
-  color: #000000;
   text-transform: uppercase;
   padding-bottom: .6em;
+  letter-spacing: .05em;
 }
 h6 {
-  font-family: 'Sanchez';
+  font-family: 'Raleway', Helvetica, Arial, Sans-Serif;
   font-weight: 700;
   -webkit-text-stroke: 0em;
   font-size: 0.9em;
   font-weight: 300;
   line-height: 1.313em;
   margin: 0.8444999999999999em 0;
-  color: #000000;
   text-transform: uppercase;
 }
 b,
@@ -634,8 +631,7 @@ display: none;
   transition: all 0.4s ease-in-out;
   transform: scale(0);
   backface-visibility: hidden;
-  font-family: 'Sanchez', serif;
-  font-size: 1.5em;
+  font-size: 1.3em;
   color: #fff;
   text-align: center;
   padding-top: 45%;
@@ -671,15 +667,10 @@ display: none;
 }
 .pagination_nix,
 .post_footer_nix {
-  /* margin: 0 auto; */
-  /* padding: 1.250em; */
   border: 0.000em solid black;
   border-radius: 0.6em;
-  /* background-color: rgba(0, 0, 0, 0.29); */
   font-family: 'Open Sans', sans-serif;
-  color: #333;
-  font-size: 1.000em;
-  /* display: block; */
+  font-size: 0.9em;
   text-align: center;
   margin-bottom: 2.25em;
 }
