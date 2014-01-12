@@ -480,7 +480,7 @@ article img {
 .postinner_nix {
   position: relative;
   min-height: 12.500em;
-  padding: 1em .6em .6em 0em;
+  padding: 1em 0em .6em;
   border-bottom: 1px dotted #86E2CE;
   background-color: white;
   font-family: 'Open Sans', sans-serif;
@@ -820,6 +820,9 @@ article ul.sharepost li {
 @media (max-width: 1000px) {
   body {
     padding: 0 1.2em;
+  }
+  article img {
+    width: 100%;
   }
 }
 @media (max-width: 768px) {
